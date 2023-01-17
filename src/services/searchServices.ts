@@ -1,4 +1,4 @@
-import { webScrapingUtil } from "../utils/puppeteer";
+import { webScrapingUtil } from "../utils/webScraping";
 
 export async function searchService(brand: string){
     return await webScrapingUtil(brand);
