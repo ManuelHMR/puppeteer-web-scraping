@@ -9,7 +9,7 @@ To use the API, you need to:
 3) Run "npm run dev" at the backend folder to start the API in development mode</br>
 
 <h2>Endpoint</h2>
-- GET http://localhost:4000/search/:string : Replace :string with the desired search term. Note that the search term is case sensitive, so use "Lenovo" instead of "lenovo", for example.</br>
+- GET http://localhost:4000/search/:string : Replace :string with the desired search term. Note that the search term is case sensitive, so use "Lenovo" instead of "lenovo", for example.  It works for any term inside the product title, so you search for products and brands.</br>
 - Example: GET http://localhost:4000/search/Lenovo
 <h2>Response</h2>
 The API will return a JSON with the scraped data as a result. The JSON structure will contain product details such as:</br>
@@ -24,4 +24,4 @@ The API will return a JSON with the scraped data as a result. The JSON structure
    - image: string | null</br>
 
 <h2>Errors</h2>
-In case of any errors, the API will return an error message in the JSON format.
+In case of any errors, the API will return an error message in the JSON format.</br>
